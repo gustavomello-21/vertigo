@@ -114,9 +114,16 @@ main {
   font-size: 1rem;
 }
 
+.bg-desktop {
+  display: none;
+}
+
 @media(min-width: 1000px) {
+  body {
+    display: flex;
+  }
   header {
-    background-image: url(./imgs/bg-desktop.png);
+    background-image: none;
     justify-content: flex-start;
     padding-inline: 7rem;
   }
@@ -127,5 +134,10 @@ main {
 
   main {
     padding-inline: 7rem;
+  }
+
+  .bg-desktop {
+    display: block;
+    width: 100%;
   }
 }
