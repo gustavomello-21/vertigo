@@ -12,6 +12,7 @@
   --purple: #7c3aed;
   --gray-200: #E2E8F0;
   --gray-400: #94A3B8;
+  --white: #fff;
 }
 header {
   background-image: url(./imgs/bg-mobile.png);
@@ -88,4 +89,16 @@ main {
 
 .login a:hover {
   text-decoration: underline;
+}
+
+.login button {
+  margin-top: 1rem;
+  padding-block: 1rem;
+  width: 100%;
+  background: var(--purple);
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
 }
